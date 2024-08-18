@@ -13,10 +13,15 @@ import ReactDOM from "react-dom/client";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 
+const customStyle = {
+    color: "red",
+    fontSize: "12px",
+    border: "1px solid black", 
+}
 root.render(
     <React.StrictMode>
         <div>
-            <h1 style = {{color: "red"}}>Hello</h1>
+            <h1 style = {customStyle}>Hello</h1>
         </div>
     </React.StrictMode>
 );
