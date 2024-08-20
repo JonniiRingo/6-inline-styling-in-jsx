@@ -18,6 +18,7 @@ const customStyle = {
     fontSize: "12px",
     border: "1px solid black", 
 }
+
 root.render(
     <React.StrictMode>
         <div>
